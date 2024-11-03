@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+coffee_one:
+  ubicacion: "Location One"
+  vacio: false
+  estado: "resuelto"
+
+coffee_two:
+  ubicacion: "Location Two"
+  vacio: true
+  estado: "procesando"
+
+coffee_three:
+  ubicacion: "Location Three"
+  vacio: false
+  estado: "pendiente"
+
