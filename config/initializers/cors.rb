@@ -1,7 +1,7 @@
 # config/initializers/cors.rb
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*' # You can specify allowed origins here
+    origins 'https://spring1-rails.onrender.com/api/v1/coffee' # You can specify allowed origins here
     resource '*',
       headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
