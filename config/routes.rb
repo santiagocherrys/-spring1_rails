@@ -9,9 +9,9 @@ Rails.application.routes.draw do
       patch '/coffee/:id', to: 'coffee#update'
       delete '/coffee/:id', to:'coffee#destroy'
       
-      
     end
   end
   
   mount OasRails::Engine => '/docs'
+  
 end
